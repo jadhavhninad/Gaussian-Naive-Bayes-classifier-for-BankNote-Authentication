@@ -1,0 +1,14 @@
+Naive Bayes - tom mitchell
+
+1. Why does naive bayes work inspite of the variables acutally not being independent :  Since its a 0/1 classifier, the probabilites only need to 
+be pushed above or below 0.5. So inspite of the dependence, the prob. values are pushed almost accurately
+
+
+2.Feature selection - 
+1. Sort based on the ability of feature to maximize the entropy of the Y variable (mutual information)
+2. Take the first varible and now calculate the probablity of P(X1,X|Y) for all other variables 
+
+
+comment:
+Naive bayes is based on the bayes classifier that give probability based on the dataset of 2^n-1 rows for each class. Naive bayes assumes that
+since the parameters are independent, we only need to calculate for 2n rows now.
